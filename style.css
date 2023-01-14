@@ -1,0 +1,152 @@
+*{
+  font-family: 'Arial';
+}
+p{
+  color: #424242f4;
+}
+.header{
+  background:#FFFFFF;
+  text-align: center;
+}
+
+/* ---------navbar style----------- */
+
+.title-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 10em;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 4em;
+}
+.navbar li{
+  list-style: none;
+}
+.navbar a{
+  text-decoration: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/* ----------------------------Banner and banner text--------------- */
+
+
+.banner-section{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  text-align: center;
+  align-items: center;
+}
+
+.banner-texts{
+  width: 54em;
+}
+.banner-texts h1{
+  font-weight: 700;
+  font-size: 64px;
+}
+.banner-texts p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #424242f4;
+}
+
+.banner-image img{
+  width: 90em;
+  height: 43em;
+}
+
+/* -------banner button---------- */
+
+.btn{
+  margin-top: 2em;
+}
+.btn button{
+  width:11em ;
+  height: 4em;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: #FF900E;
+  border-radius: 8px;
+  border: none;
+}
+
+/* .........feature gallery......... */
+
+.feature-gallery{
+  display: flex;
+  gap:3em;
+  margin-top: 8em;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ....gallery image style........ */
+   .gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+    width: 44em;
+   }
+
+/* ....gallery text style ......*/
+.gallery-texts{
+  width: 33em;
+  height: 20em;
+}
+.heading h1{
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.black{
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.orange{
+  color: #FF900E;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.paragraph{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******unique section style ****** */
+
+  .unique-section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+  }
+  .unique-section p{
+    font-weight: 520;
+    font-size: 18px;
+  }
+  .footer-icon{
+    display: flex;
+    justify-content: center
+}
