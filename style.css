@@ -481,15 +481,18 @@ p{
     margin-top: 1em;
   }
 
-  .sponsor-text p{
-    width: 90%;
+  .sponsor-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
   }
    
   
   .gray-icons{
     flex-direction: column;
     gap: 2em;
-    margin-left: 3em;
+    margin-left: 2em;
     
   }
 
