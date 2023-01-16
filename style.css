@@ -1,11 +1,21 @@
 *{
   font-family: 'Arial';
 }
+body{
+  width: 100%;
+}
 p{
   color: #424242f4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.different-color{
+  background-color: #fde5876d;
+  padding-bottom: 2em;
 }
 .header{
-  background:#FFFFFF;
+  
   text-align: center;
 }
 
@@ -51,14 +61,12 @@ p{
 }
 .banner-texts p{
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.8em;
   color: #424242f4;
 }
 
 .banner-image img{
-  width: 90em;
-  height: 43em;
+  width: 100%;
+  height: 50%;
 }
 
 /* -------banner button---------- */
@@ -123,23 +131,200 @@ p{
 }
 
 
+/* -----------------services styles------------------- */
+ .services{
+   display: flex;
+   justify-content: space-between;
+   width: 98%;
+   margin-top: 8em;
+ }
+
+ .service-description{
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+ }
+
+.service-heading{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  display: flex;
+}
+.vl {
+  border-radius: 1px;
+  border-left: 6px solid orangered;
+  height: 85px;
+  width: 5px;
+  align-self: center;
+
+}
+.heading-title{
+  width: 28em;
+  margin-left: 7px;
+}
+.heading-title h1{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+}
+.service-heading p{
+  width: 30em;
+  
+}
+
+.service{
+  width: 30em;
+  height: 10em;
+  box-shadow: 0px 4px 30px #0000000f;
+  border-radius: 8px;
+}
+.service div{
+  padding: 10px;
+}
+.service h3{
+  font-weight: 700;
+  font-size: 20px;
+  color: #2e2e2e;
+}
+
+.services-section-image img{
+  width: 90%;
+  height: 100%;
+}
+
+/* ,,,,,,,,experience  button,,,,,,, */
+
+.exceptoinal-button{
+  text-align: center;
+  margin-top: -4em;
+}
+.exceptoinal-button button{
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  width: 12em;
+  background: #FF900E;
+  border-radius: 8px;
+  border: 0;
+  padding: 1.5em;
+}
+.ten-years{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+
+/* .....some facts styles...... */
+.some-facts {
+  margin-top: 5em;
+}
+ .some-facts h1{
+  font-size: 30px;
+  color: #2e2e2e;
+ }
+ .some-facts p{
+  width: 30em;
+ }
 
 
 
+ /* ....icons and animation... */
+
+  .icons{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 3em;
+  }
 
 
+  .icon{
+    width: 5em;
+    padding: 10px 15px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin: 1em 2em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.icon:hover img{
+  transform: scale(1.35);
+  -webkit-transform: scale(1.35);
+  -moz-transform: scale(1.35);
+  -ms-transform: scale(1.35);
+  -o-transform: scale(1.35);
+}
+.icon:hover{
+  background-color: #ffb96a3b;
+}
+  .icon strong{
+      font-size: 22px ;
+      font-weight: 800;
+  }
+  .icon span{
+      color: #424242f4;
+      font-weight: 500;
+      font-size: 16px;
+
+  }
 
 
+  /*   -------sponsors styles --------*/
 
+   .sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+   }
+  .sponsor-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30em;
+    
+  }
+ .gray-icons{
+    display: flex;
+    gap: 5em;
+    margin-top: 2em;
+ }
 
+ .gray-icon{
+    ;
+ }
+ 
+/*   copy right */
 
+.copyright{
+  background-color: #fbe1765b;
+  text-align: center;
+  width: 35em;
+  border-radius: 6px;
+  padding: 10px 20px ;
+  margin-top: 3em;
+  margin-left: 30%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
 
 /* *******unique section style ****** */
 
   .unique-section{
+    margin-top: 3em;
     display: flex;
     text-align: center;
     flex-direction: column;
+    background-color: #fde5875b;
     
   }
   .unique-section p{
@@ -149,4 +334,153 @@ p{
   .footer-icon{
     display: flex;
     justify-content: center
+}
+
+
+
+
+
+
+/* --------responsive for mobile------------ */
+
+@media screen and (max-width:688px){
+    
+  body{
+    width: 100%;
+  }
+    .title-nav{
+    flex-direction: column;
+      margin-left: 1em;
+      padding: 1em 1em;
+    
+   }
+   .navbar ul{
+   flex-direction: column;
+   text-align: left;
+    gap: 1em;
+     
+   }
+   .navbar a{
+    font-size: 20px;
+
+  }
+  .banner-texts{
+    width: 90%;
+  }
+  .banner-texts h1{
+    font-size: 30px;
+  }
+  .banner-texts p{
+    font-size: 15px;
+    
+  }
+  .btn button{
+    width:8em ;
+    height: 3em;
+    font-weight: 550;
+    font-size: 18px; 
+  }
+
+  .feature-gallery{
+    flex-direction: column;
+    gap:em;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    text-align: center;
+   }
+   .gallery-texts{
+    text-align: center;
+    width: 100%;
+   }
+   .heading{
+    justify-content: center;
+   }
+
+   .heading h1,.black,.orange{
+    font-size: 35px;
+   
+  }
+  .paragraph {
+    width: 90%;
+    margin-left: 1.5em;
+    text-align: left;
+  }
+  
+  .services{
+    flex-direction: column;
+    width: 100%;
+    margin-top:1em;
+  }
+  .service div{
+    width: 98%;
+    
+  }
+  .service p{
+    width: 95%;
+    line-height: 1.4;
+  }
+  .service-description{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .services-section-image{
+    margin-top: 16em;
+    text-align: center;
+   }
+   .services-section-image img{
+    width: 90%;
+    height: 35%;
+  
+  }
+  .heading-title h1{
+    font-size: 30px;
+    
+  }
+  .vl {
+    height: 30px;
+  
+  }
+  .exceptoinal-button{
+    text-align: center;
+    margin-top: 1em;
+  }
+  .exceptoinal-button button{
+    font-weight: 600;
+    font-size: 16px;
+    width: 7em;
+    padding: 5px;
+  }
+  .ten-years{
+     font-weight: 700;
+     font-size: 20px;
+  }
+  .some-facts p{
+    width: 98%;
+  }
+  .icons{
+    flex-wrap: wrap;
+    margin-top: 1em;
+  }
+
+  .gray-icons{
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-left: 3em;
+    
+  }
+
+  .copyright{
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 2em;
+    padding: 2px ;
+  }
+  
 }
