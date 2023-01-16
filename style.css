@@ -420,6 +420,10 @@ p{
     width: 100%;
     margin-top:1em;
   }
+  .service{
+    width: 98%;
+    height: 25%;
+  }
   .service div{
     width: 98%;
     
@@ -432,13 +436,12 @@ p{
     width: 95%;
   }
   .service-description{
-    
+    margin-bottom: 15em;
     display: flex;
     flex-direction: column;
     gap: 10px;
    }
    .services-section-image{
-    margin-top: 60%;
     text-align: center;
    }
    .services-section-image img{
