@@ -125,6 +125,7 @@ p{
 }
 
 .paragraph{
+  width: 90%;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -156,7 +157,7 @@ p{
 }
 .vl {
   border-radius: 1px;
-  border-left: 6px solid orangered;
+  border-left: 3px solid #ff7847;
   height: 85px;
   width: 5px;
   align-self: center;
@@ -219,6 +220,7 @@ p{
 
 
 /* .....some facts styles...... */
+
 .some-facts {
   margin-top: 5em;
 }
@@ -297,9 +299,10 @@ p{
     margin-top: 2em;
  }
 
- .gray-icon{
-    ;
- }
+ .gray-icon img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
  
 /*   copy right */
 
@@ -383,7 +386,7 @@ p{
 
   .feature-gallery{
     flex-direction: column;
-    gap:em;
+    gap:5px;
     margin-top: 2em;
     align-items: center;
     justify-content: center;
@@ -407,7 +410,8 @@ p{
   }
   .paragraph {
     width: 90%;
-    margin-left: 1.5em;
+    margin-left: 1em;
+    padding-right: 1em;
     text-align: left;
   }
   
@@ -424,6 +428,9 @@ p{
     width: 95%;
     line-height: 1.4;
   }
+  .service-heading p{
+    width: 95%;
+  }
   .service-description{
     
     display: flex;
@@ -431,7 +438,7 @@ p{
     gap: 10px;
    }
    .services-section-image{
-    margin-top: 16em;
+    margin-top: 60%;
     text-align: center;
    }
    .services-section-image img{
@@ -440,11 +447,12 @@ p{
   
   }
   .heading-title h1{
-    font-size: 30px;
+    font-size: 25px;
     
   }
   .vl {
-    height: 30px;
+    height: 25px;
+    width: 1px;
   
   }
   .exceptoinal-button{
@@ -470,7 +478,7 @@ p{
   }
 
   .gray-icons{
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 2em;
     margin-left: 3em;
     
