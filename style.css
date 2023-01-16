@@ -436,7 +436,7 @@ p{
     width: 95%;
   }
   .service-description{
-    margin-bottom: 15em;
+    margin-bottom: 17em;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -475,11 +475,17 @@ p{
   .some-facts p{
     width: 98%;
   }
+
   .icons{
     flex-wrap: wrap;
     margin-top: 1em;
   }
 
+  .sponsor-text p{
+    width: 90%;
+  }
+   
+  
   .gray-icons{
     flex-direction: column;
     gap: 2em;
